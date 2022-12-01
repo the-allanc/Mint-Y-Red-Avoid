@@ -452,7 +452,7 @@ StScrollBar {
 .panel-top, .panel-bottom, .panel-left, .panel-right {
   color: #ffffff;
   border: none;
-  background-color: rgba(244, 242, 242, 0.99);
+  background-color: rgba(244, 242, 242, 0.5);
   font-size: 1em;
   padding: 0px; }
 
