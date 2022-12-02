@@ -390,7 +390,9 @@ StScrollBar {
     background-color: rgba(252, 65, 56, 0.5); }
 
 .panelLeft {
-  spacing: 4px; }
+  spacing: 4px;
+  background-color: rgba(255, 255, 255, 0.75);
+ }
   .panelLeft:dnd {
     background-gradient-direction: vertical;
     background-gradient-start: rgba(255, 0, 0, 0.05);
@@ -411,9 +413,11 @@ StScrollBar {
   background-gradient-end: rgba(0, 0, 255, 0.2); }
 .panelRight:ltr {
   padding-left: 4px;
+  background-color: rgba(255, 255, 255, 0.75);
   spacing: 0px; }
 .panelRight:rtl {
   padding-right: 4px;
+  background-color: rgba(255, 255, 255, 0.75);
   spacing: 0px; }
 .panelRight.vertical {
   padding: 0px; }
@@ -435,7 +439,6 @@ StScrollBar {
 .panel-top, .panel-bottom, .panel-left, .panel-right {
   color: #ffffff;
   border: none;
-  background-color: rgba(255, 255, 255, 0.75);
   font-size: 1em;
   padding: 0px; }
 .panel-top {
